@@ -1,0 +1,96 @@
+/* Resetting default browser styles */
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: black ; 
+    text-align: center;
+}
+h2{
+    color: black ;
+    text-align: center;
+}
+h3{
+    color: black ; 
+    text-align: center;
+}
+p{
+    font-size: 2.4em;
+    color: rgba(4, 255, 0, 0.668);
+    text-align: center;
+}
+.btn{
+    height: 100px;
+    width: 100px;
+    padding:70px;
+    margin: 140px;
+    border: 10px solid black
+}
+.btn-1{
+    background-color:red;
+}
+
+.btn-2{background-color: aqua;}
+.btn-3{background-color:blue ;}
+
+image{
+    text-align: center;
+}
+
+/* Setting font styles */
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
+    line-height: 1.6;
+}
+
+/* Page container */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #9b3434;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation menu */
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Main content area */
+main {
+    padding: 20px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
